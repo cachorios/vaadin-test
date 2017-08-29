@@ -8,7 +8,9 @@ import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener;
 import com.vaadin.ui.*;
 
+import javax.enterprise.event.Event;
 import javax.enterprise.event.Observes;
+import javax.enterprise.inject.Any;
 import javax.inject.Inject;
 
 /**
@@ -17,6 +19,9 @@ import javax.inject.Inject;
 
 @CDIView
 public class ChatView extends CustomComponent implements View {
+
+    @Inject
+    private javax.enterprise.event.Event<NavigationEvent> navigationEventEvent;
     @Inject
     private UserDAO userDAO;
 
@@ -24,7 +29,11 @@ public class ChatView extends CustomComponent implements View {
     private UserInfo userInfo;
 
     @Inject
+    @OriginalAuthor
     private javax.enterprise.event.Event<Message> messageEvent;
+
+    @Inject
+    private MessageService messageService;
 
     private User targetUser;
 
@@ -49,6 +58,13 @@ public class ChatView extends CustomComponent implements View {
             }
         }
         setCompositionRoot(layout);
+        messageService.registerParticipant(userInfo.getUser(), getUI());
+    }
+
+    @Override
+    public void detach() {
+        messageService.unregisterParticipant(userInfo.getUser());
+        super.detach();
     }
 
     private Layout buildErrorLayout() {
@@ -106,6 +122,11 @@ public class ChatView extends CustomComponent implements View {
         entryLayout.setExpandRatio(messageField, 1);
         entryLayout.setSpacing(true);
         chatLayout.addComponent(entryLayout);
+
+        for (Message message : messageService.getLatestMessages( userInfo.getUser(), targetUser, MAX_MESSAGES)) {
+            observeMessage(message);
+        }
+
         return chatLayout;
     }
 
@@ -131,11 +152,12 @@ public class ChatView extends CustomComponent implements View {
             public void buttonClick(Button.ClickEvent event) {
                 UI ui = getUI();
                 if (ui != null) {
-                    Navigator navi = ui.getNavigator();
+                    /*Navigator navi = ui.getNavigator();
                     if (navi != null) {
                         navi.navigateTo(Conventions
                                 .deriveMappingForView(ChatView.class));
-                    }
+                    }*/
+                    navigationEventEvent.fire(new NavigationEvent( Conventions.deriveMappingForView(ChatView.class)));
                 }
             }
         });
@@ -149,20 +171,21 @@ public class ChatView extends CustomComponent implements View {
             public void buttonClick(Button.ClickEvent event) {
                 UI ui = getUI();
                 if (ui != null) {
-                    Navigator navi = ui.getNavigator();
-                    if (navi != null) {
-                        navi.navigateTo(Conventions
-                                .deriveMappingForView(ChatView.class)
-                                + "/"
-                                + user.getUsername());
-                    }
+//                    Navigator navi = ui.getNavigator();
+//                    if (navi != null) {
+//                        navi.navigateTo(Conventions
+//                                .deriveMappingForView(ChatView.class)
+//                                + "/"
+//                                + user.getUsername());
+//                    }
+                    navigationEventEvent.fire(new NavigationEvent( Conventions.deriveMappingForView(ChatView.class)+"/"+ user.getUsername()));
                 }
             }
         });
         return button;
     }
 
-    private void observeMessage(@Observes Message message) {
+    private void observeMessage(@Observes @Any Message message) {
         User currentUser = userInfo.getUser();
         if (message.getRecipient().equals(currentUser) || message.getSender().equals(currentUser)) {
             if (messageLayout != null) {

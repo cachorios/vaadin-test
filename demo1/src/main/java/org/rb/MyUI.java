@@ -2,7 +2,9 @@ package org.rb;
 
 
 import cdi.tutorial.Greeting;
+import cdi.tutorial.NavigationEvent;
 import cdi.tutorial.UserInfo;
+import com.vaadin.annotations.Push;
 import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.VaadinServletConfiguration;
 import com.vaadin.cdi.CDIUI;
@@ -28,18 +30,25 @@ import javax.servlet.annotation.WebServlet;
  */
 
 @CDIUI("")
+@Push
 @Theme("valo")
 @SuppressWarnings("serial")
 public class MyUI extends UI {
 
     @Inject
-    CDIViewProvider viewProvider;
+    private javax.enterprise.event.Event<NavigationEvent> navigationEvent;
+
+//    @Inject
+//    CDIViewProvider viewProvider;
     @Override
     protected void init(VaadinRequest vaadinRequest) {
-        Navigator navigator = new Navigator(this,this);
 
-        navigator.addProvider(viewProvider);
-        navigator.navigateTo("login");
+//        Navigator navigator = new Navigator(this,this);
+//
+//        navigator.addProvider(viewProvider);
+//        navigator.navigateTo("login");
+
+        navigationEvent.fire(new NavigationEvent("login"));
 
     }
 

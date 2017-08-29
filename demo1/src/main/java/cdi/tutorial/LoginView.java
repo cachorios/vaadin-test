@@ -17,6 +17,9 @@ import javax.inject.Inject;
 public class LoginView extends CustomComponent implements View, Button.ClickListener {
 
     @Inject
+    private javax.enterprise.event.Event<NavigationEvent> navigationEvent;
+
+    @Inject
     private UserInfo user;
 
     @Inject
@@ -31,7 +34,7 @@ public class LoginView extends CustomComponent implements View, Button.ClickList
 
     @Override
     public void enter(ViewChangeListener.ViewChangeEvent event) {
-        navigator = getUI().getNavigator();
+        //navigator = getUI().getNavigator();
 
         nombreField = new TextField("Usuario");
         claveField = new PasswordField("Clave");
@@ -68,11 +71,13 @@ public class LoginView extends CustomComponent implements View, Button.ClickList
 
         user.setUser(loginUser);
 
-
+        /*
         if (navigator != null) {
             navigator.navigateTo("chat");
             //navigator.navigateTo("hello");
         }
+        */
+        navigationEvent.fire(new NavigationEvent("chat"));
     }
 
     private static final class WrongPasswordErrorMessage implements

@@ -2,59 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f93e5f7-db80-4897-b6b9-efc5d9f35d7a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/demo1_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/demo1_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/demo1.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_atmosphere_atmosphere_runtime_2_4_11_vaadin2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_flute_flute_1_3_0_gg2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_gentyref_1_2_0_vaadin1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_slf4j_vaadin_slf4j_jdk14_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_cdi_2_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_client_compiled_8_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_push_8_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_sass_compiler_0_9_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_server_8_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_shared_8_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_themes_8_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_2_0_PFD2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_interceptor_javax_interceptor_api_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_deltaspike_core_deltaspike_core_api_1_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_deltaspike_core_deltaspike_core_impl_1_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cdi/tutorial/ChatView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cdi/tutorial/Greeting.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cdi/tutorial/LoginView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cdi/tutorial/Message.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cdi/tutorial/MessageService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cdi/tutorial/MessageServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cdi/tutorial/SimpleGreetingImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cdi/tutorial/TestingUserDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cdi/tutorial/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cdi/tutorial/UserDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cdi/tutorial/UserGreetingImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cdi/tutorial/UserInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cdi/tutorial/greetingView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/rb/MyUI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/addons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/mytheme.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/mytheme/styles.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/data/content/70/30449199af9f20cc4875467a438537c9c37e8b/content" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/deployment/deployment9f61517b7aaf4ab2/atmosphere-runtime-2.4.11.vaadin2.jar-5c4fecf0645df4a4/atmosphere-runtime-2.4.11.vaadin2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/deployment/deployment9f61517b7aaf4ab2/deltaspike-core-api-1.7.2.jar-a1d618b2ff1550ac/deltaspike-core-api-1.7.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/deployment/deployment9f61517b7aaf4ab2/deltaspike-core-impl-1.7.2.jar-208b7ec6bd0c56a9/deltaspike-core-impl-1.7.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/deployment/deployment9f61517b7aaf4ab2/flute-1.3.0.gg2.jar-46b0d0be815e90e9/flute-1.3.0.gg2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/deployment/deployment9f61517b7aaf4ab2/gentyref-1.2.0.vaadin1.jar-d8c02bde31fb73f8/gentyref-1.2.0.vaadin1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/deployment/deployment9f61517b7aaf4ab2/jsoup-1.8.3.jar-4deb13027c6b79d5/jsoup-1.8.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/deployment/deployment9f61517b7aaf4ab2/sac-1.3.jar-9645589a17c45394/sac-1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/deployment/deployment9f61517b7aaf4ab2/vaadin-cdi-2.0.0.jar-ae9e82fd42ad8fb1/vaadin-cdi-2.0.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/deployment/deployment9f61517b7aaf4ab2/vaadin-client-compiled-8.1.2.jar-1d137fd4909430a6/vaadin-client-compiled-8.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/deployment/deployment9f61517b7aaf4ab2/vaadin-push-8.1.2.jar-aeaf6f8801612e82/vaadin-push-8.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/deployment/deployment9f61517b7aaf4ab2/vaadin-sass-compiler-0.9.13.jar-8c8cffbb6bf08f90/vaadin-sass-compiler-0.9.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/deployment/deployment9f61517b7aaf4ab2/vaadin-server-8.1.2.jar-1aa9c45f284cf74c/vaadin-server-8.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/deployment/deployment9f61517b7aaf4ab2/vaadin-shared-8.1.2.jar-4c0c50f3b1ff1041/vaadin-shared-8.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/deployment/deployment9f61517b7aaf4ab2/vaadin-slf4j-jdk14-1.6.1.jar-d7bd0fe047ee5c80/vaadin-slf4j-jdk14-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/deployment/deployment9f61517b7aaf4ab2/vaadin-themes-8.1.2.jar-bcfc0c06bcc791ca/vaadin-themes-8.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/META-INF/maven/org.rb/demo1/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/META-INF/maven/org.rb/demo1/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/VAADIN/themes/mytheme/addons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/VAADIN/themes/mytheme/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/VAADIN/themes/mytheme/mytheme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/VAADIN/themes/mytheme/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/VAADIN/themes/mytheme/styles.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/beans.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/classes/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/classes/cdi/tutorial/ChatView$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/classes/cdi/tutorial/ChatView$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/classes/cdi/tutorial/ChatView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/classes/cdi/tutorial/Greeting.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/classes/cdi/tutorial/LoginView$WrongPasswordErrorMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/classes/cdi/tutorial/LoginView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/classes/cdi/tutorial/Message.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/classes/cdi/tutorial/SimpleGreetingImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/classes/cdi/tutorial/TestingUserDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/classes/cdi/tutorial/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/classes/cdi/tutorial/UserDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/classes/cdi/tutorial/UserGreetingImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/classes/cdi/tutorial/UserInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/classes/cdi/tutorial/greetingView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/classes/org/rb/MyUI.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/lib/atmosphere-runtime-2.4.11.vaadin2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/lib/deltaspike-core-api-1.7.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/lib/deltaspike-core-impl-1.7.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/lib/flute-1.3.0.gg2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/lib/gentyref-1.2.0.vaadin1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/lib/jsoup-1.8.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/lib/sac-1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/lib/vaadin-cdi-2.0.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/lib/vaadin-client-compiled-8.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/lib/vaadin-push-8.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/lib/vaadin-sass-compiler-0.9.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/lib/vaadin-server-8.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/lib/vaadin-shared-8.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/lib/vaadin-slf4j-jdk14-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/vfs/temp/tempa49816c3dd10dbae/content-5e4da1c293b5cf36/WEB-INF/lib/vaadin-themes-8.1.2.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cdi/tutorial/ChatView$1.class" afterPath="$PROJECT_DIR$/target/classes/cdi/tutorial/ChatView$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cdi/tutorial/ChatView$2.class" afterPath="$PROJECT_DIR$/target/classes/cdi/tutorial/ChatView$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cdi/tutorial/ChatView.class" afterPath="$PROJECT_DIR$/target/classes/cdi/tutorial/ChatView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cdi/tutorial/LoginView$WrongPasswordErrorMessage.class" afterPath="$PROJECT_DIR$/target/classes/cdi/tutorial/LoginView$WrongPasswordErrorMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cdi/tutorial/LoginView.class" afterPath="$PROJECT_DIR$/target/classes/cdi/tutorial/LoginView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/rb/MyUI.class" afterPath="$PROJECT_DIR$/target/classes/org/rb/MyUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/demo1-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/demo1-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/demo1-1.0-SNAPSHOT/WEB-INF/classes/cdi/tutorial/ChatView$1.class" afterPath="$PROJECT_DIR$/target/demo1-1.0-SNAPSHOT/WEB-INF/classes/cdi/tutorial/ChatView$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/demo1-1.0-SNAPSHOT/WEB-INF/classes/cdi/tutorial/ChatView$2.class" afterPath="$PROJECT_DIR$/target/demo1-1.0-SNAPSHOT/WEB-INF/classes/cdi/tutorial/ChatView$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/demo1-1.0-SNAPSHOT/WEB-INF/classes/cdi/tutorial/ChatView.class" afterPath="$PROJECT_DIR$/target/demo1-1.0-SNAPSHOT/WEB-INF/classes/cdi/tutorial/ChatView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/demo1-1.0-SNAPSHOT/WEB-INF/classes/cdi/tutorial/LoginView$WrongPasswordErrorMessage.class" afterPath="$PROJECT_DIR$/target/demo1-1.0-SNAPSHOT/WEB-INF/classes/cdi/tutorial/LoginView$WrongPasswordErrorMessage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/demo1-1.0-SNAPSHOT/WEB-INF/classes/cdi/tutorial/LoginView.class" afterPath="$PROJECT_DIR$/target/demo1-1.0-SNAPSHOT/WEB-INF/classes/cdi/tutorial/LoginView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/demo1-1.0-SNAPSHOT/WEB-INF/classes/org/rb/MyUI.class" afterPath="$PROJECT_DIR$/target/demo1-1.0-SNAPSHOT/WEB-INF/classes/org/rb/MyUI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cdi/tutorial/ChatView.java" afterPath="$PROJECT_DIR$/src/main/java/cdi/tutorial/ChatView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cdi/tutorial/LoginView.java" afterPath="$PROJECT_DIR$/src/main/java/cdi/tutorial/LoginView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cdi/tutorial/MessageServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/cdi/tutorial/MessageServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/rb/MyUI.java" afterPath="$PROJECT_DIR$/src/main/java/org/rb/MyUI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/demo1-1.0-SNAPSHOT/WEB-INF/beans.xml" afterPath="$PROJECT_DIR$/target/demo1-1.0-SNAPSHOT/WEB-INF/beans.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/configuration/standalone.xml" afterPath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/configuration/standalone.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/configuration/standalone_xml_history/standalone.last.xml" afterPath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/configuration/standalone_xml_history/standalone.last.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/data/kernel/process-uuid" afterPath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/data/kernel/process-uuid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/log/server.log" afterPath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/log/server.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/startup-marker" afterPath="$PROJECT_DIR$/target/wildfly-run/wildfly-10.1.0.Final/standalone/tmp/startup-marker" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,75 +99,43 @@
       <file leaf-file-name="ChatView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cdi/tutorial/ChatView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="90" column="65" lean-forward="true" selection-start-line="90" selection-start-column="65" selection-end-line="90" selection-end-column="65" />
+            <state relative-caret-position="364">
+              <caret line="184" column="22" lean-forward="false" selection-start-line="184" selection-start-column="22" selection-end-line="184" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#enter#0;class#ChatView#0" expanded="false" />
                 <element signature="method#buildErrorLayout#0;class#ChatView#0" expanded="false" />
-                <element signature="method#buildUserLayout#0;class#ChatView#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Message.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cdi/tutorial/Message.java">
+      <file leaf-file-name="NavigationLogDecorator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cdi/tutorial/NavigationLogDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding>
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#734#735#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-                <element signature="e#928#929#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cdi/tutorial/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cdi/tutorial/MessageService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cdi/tutorial/MessageServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+            <state relative-caret-position="272">
+              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#552#562#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#846#847#0" expanded="true" />
-                <element signature="e#1305#1306#0" expanded="true" />
-                <element signature="e#1371#1372#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cdi/tutorial/UserDAO.java">
+      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cdi/tutorial/LoginView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="653">
+              <caret line="82" column="64" lean-forward="false" selection-start-line="82" selection-start-column="64" selection-end-line="82" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -158,7 +155,9 @@
     <findStrings>
       <find>jett</find>
       <find>oss</find>
+      <find>deta</find>
       <find>buildChatLayout</find>
+      <find>nav</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,20 +175,25 @@
         <option value="$PROJECT_DIR$/src/main/java/cdi/tutorial/Greeting.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cdi/tutorial/UserGreetingImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cdi/tutorial/SimpleGreetingImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/cdi/tutorial/greetingView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/rb/MyUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/cdi/tutorial/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/cdi/tutorial/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/cdi/tutorial/TestingUserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/cdi/tutorial/UserInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cdi/tutorial/LoginView.java" />
         <option value="$PROJECT_DIR$/src/main/java/cdi/tutorial/Message.java" />
         <option value="$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/8.1.2/vaadin-server-8.1.2.jar!/com/vaadin/ui/ComponentContainer.class" />
         <option value="$PROJECT_DIR$/src/main/java/cdi/tutorial/MessageService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cdi/tutorial/ChatView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cdi/tutorial/OriginalAuthor.java" />
         <option value="$PROJECT_DIR$/src/main/java/cdi/tutorial/MessageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cdi/tutorial/NavigationEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cdi/tutorial/NavigationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cdi/tutorial/NavigationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/rb/MyUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cdi/tutorial/LoginView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cdi/tutorial/ChatView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cdi/tutorial/NavigationLogDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
       </list>
     </option>
   </component>
@@ -282,6 +286,124 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorial" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -821,15 +943,15 @@
       <option name="presentableId" value="Default" />
       <updated>1503774194721</updated>
       <workItem from="1503774196270" duration="26429000" />
-      <workItem from="1503931943043" duration="4986000" />
+      <workItem from="1503931943043" duration="10158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31415000" />
+    <option name="totallyTimeSpent" value="36587000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -846,12 +968,12 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1971831" sideWeight="0.7665245" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3347779" sideWeight="0.7665245" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15778251" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -890,9 +1012,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#enter#0;class#ChatView#0" expanded="false" />
             <element signature="method#buildErrorLayout#0;class#ChatView#0" expanded="false" />
-            <element signature="method#buildUserLayout#0;class#ChatView#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -920,14 +1040,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom3.xml" />
     <entry file="file://$PROJECT_DIR$/pom2.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -962,17 +1074,6 @@
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/rb/MyUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="41" column="35" lean-forward="false" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#952#979#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1016,37 +1117,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cdi/tutorial/LoginView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2179#2180#0" expanded="false" />
-            <element signature="e#2239#2240#0" expanded="false" />
-            <element signature="e#2308#2309#0" expanded="false" />
-            <element signature="e#2356#2357#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/8.1.2/vaadin-server-8.1.2.jar!/com/vaadin/ui/ComponentContainer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cdi/tutorial/ChatView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="90" column="65" lean-forward="true" selection-start-line="90" selection-start-column="65" selection-end-line="90" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#enter#0;class#ChatView#0" expanded="false" />
-            <element signature="method#buildErrorLayout#0;class#ChatView#0" expanded="false" />
-            <element signature="method#buildUserLayout#0;class#ChatView#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1061,7 +1135,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cdi/tutorial/MessageService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1085,21 +1159,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cdi/tutorial/MessageServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#552#562#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-            <element signature="e#1371#1372#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cdi/tutorial/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1111,13 +1170,122 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cdi/tutorial/Message.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="e#705#706#0" expanded="true" />
             <element signature="e#734#735#0" expanded="true" />
             <element signature="e#897#898#0" expanded="true" />
             <element signature="e#928#929#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cdi/tutorial/OriginalAuthor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cdi/tutorial/MessageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="73" column="59" lean-forward="false" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#1231#1266#0" expanded="true" />
+            <element signature="e#1322#1332#0" expanded="true" />
+            <element signature="e#2155#2164#0" expanded="true" />
+            <element signature="e#2386#2387#0" expanded="true" />
+            <element signature="e#2427#2428#0" expanded="true" />
+            <element signature="e#2493#2494#0" expanded="true" />
+            <element signature="e#2533#2534#0" expanded="true" />
+            <element signature="e#3054#3055#0" expanded="true" />
+            <element signature="e#3120#3121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/rb/MyUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="50" column="55" lean-forward="false" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
+          <folding>
+            <element signature="e#1031#1058#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cdi/tutorial/LoginView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="82" column="64" lean-forward="false" selection-start-line="82" selection-start-column="64" selection-end-line="82" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cdi/tutorial/NavigationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cdi/tutorial/NavigationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cdi/tutorial/NavigationEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cdi/tutorial/ChatView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="184" column="22" lean-forward="false" selection-start-line="184" selection-start-column="22" selection-end-line="184" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#buildErrorLayout#0;class#ChatView#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cdi/tutorial/NavigationLogDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
