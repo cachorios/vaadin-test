@@ -1,0 +1,218 @@
+2017-08-28 11:53:40,323 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2017-08-28 11:53:40,643 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2017-08-28 11:53:40,722 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2017-08-28 11:53:40,723 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_131\jre
+	java.io.tmpdir = C:\Users\CACHOR~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Sybase\Shared\PowerBuilder;C:\Program Files (x86)\Sybase\PowerBuilder 12.5;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\Program Files\SQL Anywhere 16\bin64;C:\Program Files\SQL Anywhere 16\bin32;C:\Program Files (x86)\Sybase126\Shared\PowerBuilder;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Sybase\Shared\PowerBuilder\;C:\Program Files (x86)\Sybase126\Shared\PowerBuilder\x64;C:\Program Files (x86)\Sybase126\PowerBuilder 12.6;C:\Program Files\VisualSVN Server\bin;C:\Program Files\SlikSvn\bin;C:\Program Files (x86)\TortoiseSVN\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Sybase\Shared\PowerBuilder\;C:\Users\cachorios\AppData\Local\Microsoft\WindowsApps;D:\apache-maven\bin;G:\AppWeb;;.
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_131-b11
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_131
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.131-b11
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final
+	jboss.host.name = desktop-d114rsj
+	jboss.modules.dir = D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final\modules
+	jboss.node.name = desktop-d114rsj
+	jboss.qualified.host.name = desktop-d114rsj
+	jboss.server.base.dir = D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final\standalone
+	jboss.server.config.dir = D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final\standalone\configuration
+	jboss.server.data.dir = D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final\standalone\data
+	jboss.server.deploy.dir = D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final\standalone\data\content
+	jboss.server.log.dir = D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final\standalone\log
+	jboss.server.name = desktop-d114rsj
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final\standalone\configuration\logging.properties
+	module.path = D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final\modules
+	org.jboss.boot.log.file = D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_131\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final\jboss-modules.jar -mp D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final -Djboss.server.base.dir=D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final\standalone -Djboss.server.log.dir=D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final\standalone\log -Djboss.server.config.dir=D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final\standalone\configuration
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = ES
+	user.dir = D:\Vaadin\test\demo1
+	user.home = C:\Users\cachorios
+	user.language = es
+	user.name = cachorios
+	user.script = 
+	user.timezone = America/Buenos_Aires
+	user.variant = 
+2017-08-28 11:53:40,731 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -D[Standalone] -Dorg.jboss.boot.log.file=D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final\standalone\log\server.log -Dlogging.configuration=file:D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final\standalone\configuration\logging.properties 
+2017-08-28 11:53:41,840 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2017-08-28 11:53:41,867 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.4.0.Final
+2017-08-28 11:53:41,874 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.4.0.Final
+2017-08-28 11:53:41,904 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2017-08-28 11:53:41,922 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2017-08-28 11:53:41,923 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2017-08-28 11:53:41,940 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2017-08-28 11:53:41,942 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2017-08-28 11:53:41,944 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2017-08-28 11:53:41,951 INFO  [org.jboss.as.security] (MSC service thread 1-8) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2017-08-28 11:53:41,955 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2017-08-28 11:53:42,065 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2017-08-28 11:53:42,083 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 1.4.0.Final starting
+2017-08-28 11:53:42,104 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2017-08-28 11:53:42,113 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2017-08-28 11:53:42,139 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2017-08-28 11:53:42,141 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2017-08-28 11:53:42,145 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 4.0.21.Final
+2017-08-28 11:53:42,254 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path 'D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2017-08-28 11:53:42,266 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2017-08-28 11:53:42,267 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2017-08-28 11:53:42,342 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2017-08-28 11:53:42,343 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2017-08-28 11:53:42,370 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2017-08-28 11:53:42,510 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2017-08-28 11:53:42,546 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-6) WFLYDM0111: Keystore D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2017-08-28 11:53:42,565 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final\standalone\deployments
+2017-08-28 11:53:42,706 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-5) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2017-08-28 11:53:42,742 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-08-28 11:53:42,744 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-08-28 11:53:42,747 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-08-28 11:53:42,748 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-08-28 11:53:42,757 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-08-28 11:53:42,758 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2017-08-28 11:53:42,910 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2017-08-28 11:53:43,016 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2017-08-28 11:53:43,179 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2017-08-28 11:53:43,179 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2017-08-28 11:53:43,180 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 3278ms - Started 331 of 577 services (393 services are lazy, passive or on-demand)
+2017-08-28 11:53:43,563 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location D:\Vaadin\test\demo1\target\wildfly-run\wildfly-10.1.0.Final\standalone\data\content\70\30449199af9f20cc4875467a438537c9c37e8b\content
+2017-08-28 11:53:43,585 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "demo1-1.0-SNAPSHOT.war" (runtime-name: "demo1-1.0-SNAPSHOT.war")
+2017-08-28 11:53:44,636 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry vaadin-server-8.0.0.jar in /D:/Vaadin/test/demo1/content/demo1-1.0-SNAPSHOT.war/WEB-INF/lib/vaadin-cdi-2.0.0.jar  does not point to a valid jar for a Class-Path reference.
+2017-08-28 11:53:44,637 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry vaadin-shared-8.0.0.jar in /D:/Vaadin/test/demo1/content/demo1-1.0-SNAPSHOT.war/WEB-INF/lib/vaadin-cdi-2.0.0.jar  does not point to a valid jar for a Class-Path reference.
+2017-08-28 11:53:44,637 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry gentyref-1.2.0.jar in /D:/Vaadin/test/demo1/content/demo1-1.0-SNAPSHOT.war/WEB-INF/lib/vaadin-cdi-2.0.0.jar  does not point to a valid jar for a Class-Path reference.
+2017-08-28 11:53:44,640 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry yuicompressor-2.4.8.jar in /D:/Vaadin/test/demo1/content/demo1-1.0-SNAPSHOT.war/WEB-INF/lib/vaadin-sass-compiler-0.9.13.jar  does not point to a valid jar for a Class-Path reference.
+2017-08-28 11:53:44,640 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry js-1.7R2.jar in /D:/Vaadin/test/demo1/content/demo1-1.0-SNAPSHOT.war/WEB-INF/lib/vaadin-sass-compiler-0.9.13.jar  does not point to a valid jar for a Class-Path reference.
+2017-08-28 11:53:45,246 WARN  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0012: Warning while parsing vfs:/D:/Vaadin/test/demo1/content/demo1-1.0-SNAPSHOT.war/WEB-INF/beans.xml:1 cvc-elt.1.a: Cannot find the declaration of element 'beans'.
+2017-08-28 11:53:45,405 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment demo1-1.0-SNAPSHOT.war
+2017-08-28 11:53:45,478 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.2.4.Final
+2017-08-28 11:53:45,553 INFO  [org.apache.deltaspike.core.util.ProjectStageProducer] (MSC service thread 1-2) Computed the following DeltaSpike ProjectStage: Production
+2017-08-28 11:53:45,691 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 2.3.5 (Final)
+2017-08-28 11:53:45,908 INFO  [org.jboss.weld.Event] (MSC service thread 1-1) WELD-000411: Observer method [BackedAnnotatedMethod] protected org.apache.deltaspike.core.impl.message.MessageBundleExtension.detectInterfaces(@Observes ProcessAnnotatedType) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+2017-08-28 11:53:45,919 INFO  [org.jboss.weld.Event] (MSC service thread 1-1) WELD-000411: Observer method [BackedAnnotatedMethod] protected org.apache.deltaspike.core.impl.interceptor.GlobalInterceptorExtension.promoteInterceptors(@Observes ProcessAnnotatedType, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+2017-08-28 11:53:45,926 INFO  [org.jboss.weld.Event] (MSC service thread 1-1) WELD-000411: Observer method [BackedAnnotatedMethod] protected org.apache.deltaspike.core.impl.exclude.extension.ExcludeExtension.vetoBeans(@Observes ProcessAnnotatedType, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+2017-08-28 11:53:46,233 WARN  [org.jboss.weld.Validator] (MSC service thread 1-1) WELD-001478: Interceptor class org.apache.deltaspike.core.impl.throttling.ThrottledInterceptor is enabled for the application and for the bean archive demo1-1.0-SNAPSHOT.war/WEB-INF/lib/deltaspike-core-impl-1.7.2.jar. It will only be invoked in the @Priority part of the chain.
+2017-08-28 11:53:46,233 WARN  [org.jboss.weld.Validator] (MSC service thread 1-1) WELD-001478: Interceptor class org.apache.deltaspike.core.impl.lock.LockedInterceptor is enabled for the application and for the bean archive demo1-1.0-SNAPSHOT.war/WEB-INF/lib/deltaspike-core-impl-1.7.2.jar. It will only be invoked in the @Priority part of the chain.
+2017-08-28 11:53:46,234 WARN  [org.jboss.weld.Validator] (MSC service thread 1-1) WELD-001478: Interceptor class org.apache.deltaspike.core.impl.future.FutureableInterceptor is enabled for the application and for the bean archive demo1-1.0-SNAPSHOT.war/WEB-INF/lib/deltaspike-core-impl-1.7.2.jar. It will only be invoked in the @Priority part of the chain.
+2017-08-28 11:53:46,672 INFO  [com.vaadin.cdi.internal.VaadinExtension] (MSC service thread 1-1) UIScopedContext registered for Vaadin CDI
+2017-08-28 11:53:46,672 INFO  [com.vaadin.cdi.internal.VaadinExtension] (MSC service thread 1-1) ViewScopedContext registered for Vaadin CDI
+2017-08-28 11:53:46,959 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 3) Initializing AtmosphereFramework
+2017-08-28 11:53:46,979 INFO  [com.vaadin.cdi.internal.ContextDeployer] (ServerService Thread Pool -- 3) Initializing web context for path /demo1-1.0-SNAPSHOT
+2017-08-28 11:53:46,979 INFO  [com.vaadin.cdi.internal.ContextDeployer] (ServerService Thread Pool -- 3) Discovering Vaadin UIs...
+2017-08-28 11:53:46,980 INFO  [com.vaadin.cdi.internal.ContextDeployer] (ServerService Thread Pool -- 3) 1 beans inheriting from UI discovered!
+2017-08-28 11:53:46,980 INFO  [com.vaadin.cdi.internal.ContextDeployer] (ServerService Thread Pool -- 3) Vaadin UI org.rb.MyUI is marked as @CDIUI without context path, this UI is accessible from context root of deployment
+2017-08-28 11:53:46,980 INFO  [com.vaadin.cdi.internal.ContextDeployer] (ServerService Thread Pool -- 3) Available Vaadin UIs for CDI deployment [/ => MyUI]
+2017-08-28 11:53:46,981 INFO  [com.vaadin.cdi.internal.ContextDeployer] (ServerService Thread Pool -- 3) Registering VaadinServlet with CDIUIProvider
+2017-08-28 11:53:46,983 INFO  [com.vaadin.cdi.internal.ContextDeployer] (ServerService Thread Pool -- 3) Mapping VaadinServlet to /*
+2017-08-28 11:53:46,983 INFO  [com.vaadin.cdi.internal.ContextDeployer] (ServerService Thread Pool -- 3) Done deploying Vaadin UIs
+2017-08-28 11:53:46,996 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Installed AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler mapped to context-path: /*
+2017-08-28 11:53:46,996 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.server.communication.PushAtmosphereHandler
+2017-08-28 11:53:47,039 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+2017-08-28 11:53:47,050 INFO  [org.atmosphere.util.ForkJoinPool] (ServerService Thread Pool -- 3) Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+2017-08-28 11:53:47,058 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+2017-08-28 11:53:47,064 WARNING [org.atmosphere.util.IOUtils] (ServerService Thread Pool -- 3) More than one Servlet Mapping defined. WebSocket may not work io.undertow.servlet.spec.ServletRegistrationImpl@251b7e98
+2017-08-28 11:53:47,064 INFO  [org.atmosphere.container.JSR356AsyncSupport] (ServerService Thread Pool -- 3) JSR 356 Mapping path /{path}
+2017-08-28 11:53:47,067 INFO  [io.undertow.websockets.jsr] (ServerService Thread Pool -- 3) UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /{path}
+2017-08-28 11:53:47,069 INFO  [io.undertow.websockets.jsr] (ServerService Thread Pool -- 3) UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /{path}/{path0}
+2017-08-28 11:53:47,069 INFO  [io.undertow.websockets.jsr] (ServerService Thread Pool -- 3) UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /{path}/{path0}/{path1}
+2017-08-28 11:53:47,069 INFO  [io.undertow.websockets.jsr] (ServerService Thread Pool -- 3) UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /{path}/{path0}/{path1}/{path2}
+2017-08-28 11:53:47,069 INFO  [io.undertow.websockets.jsr] (ServerService Thread Pool -- 3) UT026005: Adding programmatic server endpoint class org.atmosphere.container.JSR356Endpoint for path /{path}/{path0}/{path1}/{path2}/{path3}
+2017-08-28 11:53:47,070 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Installing Default AtmosphereInterceptors
+2017-08-28 11:53:47,070 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+2017-08-28 11:53:47,071 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+2017-08-28 11:53:47,072 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+2017-08-28 11:53:47,072 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+2017-08-28 11:53:47,073 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Dropping Interceptor org.atmosphere.interceptor.HeartbeatInterceptor
+2017-08-28 11:53:47,073 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+2017-08-28 11:53:47,074 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+2017-08-28 11:53:47,075 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+2017-08-28 11:53:47,075 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+2017-08-28 11:53:47,076 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+2017-08-28 11:53:47,077 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+2017-08-28 11:53:47,077 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+2017-08-28 11:53:47,077 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+2017-08-28 11:53:47,078 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+2017-08-28 11:53:47,079 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+2017-08-28 11:53:47,079 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+2017-08-28 11:53:47,079 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+2017-08-28 11:53:47,079 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+2017-08-28 11:53:47,080 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+2017-08-28 11:53:47,080 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+2017-08-28 11:53:47,080 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+2017-08-28 11:53:47,080 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+2017-08-28 11:53:47,080 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+2017-08-28 11:53:47,081 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+2017-08-28 11:53:47,081 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+2017-08-28 11:53:47,081 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Broadcaster Shared List Resources: false
+2017-08-28 11:53:47,081 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Broadcaster Polling Wait Time 100
+2017-08-28 11:53:47,082 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Shared ExecutorService supported: true
+2017-08-28 11:53:47,082 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+2017-08-28 11:53:47,082 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Async I/O Thread Pool Size: 200
+2017-08-28 11:53:47,082 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+2017-08-28 11:53:47,083 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+2017-08-28 11:53:47,083 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+2017-08-28 11:53:47,086 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Invoke AtmosphereInterceptor on WebSocket message true
+2017-08-28 11:53:47,087 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) HttpSession supported: true
+2017-08-28 11:53:47,087 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+2017-08-28 11:53:47,087 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: WildFly 2.2.0.Final - 1.4.0.Final using javax.servlet/3.0 and jsr356/WebSocket API
+2017-08-28 11:53:47,087 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Atmosphere Framework 2.4.11.vaadin2 started.
+2017-08-28 11:53:47,090 INFO  [org.atmosphere.cpr.AtmosphereFramework] (ServerService Thread Pool -- 3) Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2017-08-28 11:53:47,139 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 3) WFLYUT0021: Registered web context: /demo1-1.0-SNAPSHOT
+2017-08-28 11:53:47,233 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "demo1-1.0-SNAPSHOT.war" (runtime-name : "demo1-1.0-SNAPSHOT.war")
+2017-08-28 11:53:59,731 WARNING [com.vaadin.server.DefaultDeploymentConfiguration] (default task-1) 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================

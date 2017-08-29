@@ -1,0 +1,15 @@
+cdi\tutorial\User.class
+cdi\tutorial\ChatView$2.class
+cdi\tutorial\TestingUserDAO.class
+cdi\tutorial\ChatView.class
+cdi\tutorial\ChatView$1.class
+cdi\tutorial\UserDAO.class
+cdi\tutorial\LoginView$WrongPasswordErrorMessage.class
+cdi\tutorial\LoginView.class
+cdi\tutorial\UserInfo.class
+cdi\tutorial\UserGreetingImpl.class
+cdi\tutorial\Message.class
+cdi\tutorial\greetingView.class
+cdi\tutorial\SimpleGreetingImpl.class
+cdi\tutorial\Greeting.class
+org\rb\MyUI.class
