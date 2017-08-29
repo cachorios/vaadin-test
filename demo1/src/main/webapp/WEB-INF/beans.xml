@@ -1,6 +1,7 @@
 <beans>
     <alternatives>
         <class>cdi.tutorial.UserGreetingImpl</class>
+        <class>cdi.tutorial.CustomAccessControl</class>
     </alternatives>
     <decorators>
         <class>cdi.tutorial.NavigationLogDecorator</class>
