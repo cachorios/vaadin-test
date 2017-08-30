@@ -1,7 +1,6 @@
 package cdi.tutorial;
 
 import java.io.Serializable;
-
 public class User implements Serializable {
     private final long id;
 
@@ -17,7 +16,7 @@ public class User implements Serializable {
     }
 
     public User(long id, String username, String password, String firstName,
-            String lastName, String email, boolean isAdmin) {
+                String lastName, String email, boolean isAdmin) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;

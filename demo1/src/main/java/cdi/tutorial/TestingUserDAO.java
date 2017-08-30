@@ -7,21 +7,28 @@ import java.util.List;
 /**
  * Created by cachorios on 27/08/2017.
  */
+
 public class TestingUserDAO implements UserDAO, Serializable {
 
-    List<User> users;
+    static List<User> users;
 
-    public TestingUserDAO(){
+    static {
         users = new LinkedList<User>();
-        users.add(new User(0, "admin",  "admin","System", "Administrator", null, true));
-        users.add(new User(1, "user",   "user", "Some",   "User",          null, false));
-        users.add(new User(2, "cacho", "11",    "Luis",   "Rios",          null, false));
+        users.add(new User(0, "admin",  "admin", "System", "Administrator",                null, true));
+        users.add(new User(1, "user",   "user", "Some", "User", null, false));
+        users.add(new User(2, "ernest", "john", "Ernest", "Worthing", null,                false));
+        users.add(new User(3, "cacho", "cacho", "Luis", "Rios", "cachorios@gmail.com",                false));
+    }
+
+    public TestingUserDAO() {
+
     }
 
     @Override
     public User getUserBy(String username, String password) {
-        for(User user: users){
-            if(user.getUsername().equals(username) && user.getPassword().equals(password)){
+        for (User user : users) {
+            if (user.getUsername().equals(username)
+                    && user.getPassword().equals(password)) {
                 return user;
             }
         }
@@ -40,14 +47,14 @@ public class TestingUserDAO implements UserDAO, Serializable {
 
     @Override
     public boolean saveUser(User user) {
-        try{
-            if(users.contains(user)){
+        try {
+            if (users.contains(user)) {
                 return true;
-            }else{
+            } else {
                 users.add(user);
                 return true;
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             return false;
         }
     }
@@ -56,4 +63,5 @@ public class TestingUserDAO implements UserDAO, Serializable {
     public List<User> getUsers() {
         return users;
     }
+
 }

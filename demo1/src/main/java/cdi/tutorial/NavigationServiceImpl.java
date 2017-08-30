@@ -18,11 +18,15 @@ public class NavigationServiceImpl implements NavigationService {
     @Inject
     private UI ui;
 
+    @Inject
+    private ErrorView errorView;
+
     @PostConstruct
     public void initialize() {
         if (ui.getNavigator() == null) {
             Navigator navigator = new Navigator(ui, ui);
             navigator.addProvider(viewProvider);
+            navigator.setErrorView(errorView);
         }
     }
 

@@ -28,32 +28,19 @@ import javax.servlet.annotation.WebServlet;
  * The UI is initialized using {@link #init(VaadinRequest)}. This method is intended to be 
  * overridden to add component to the user interface and initialize non-component functionality.
  */
-
+@Theme("valo")
 @CDIUI("")
 @Push
-@Theme("valo")
 @SuppressWarnings("serial")
 public class MyUI extends UI {
 
     @Inject
     private javax.enterprise.event.Event<NavigationEvent> navigationEvent;
 
-//    @Inject
-//    CDIViewProvider viewProvider;
     @Override
-    protected void init(VaadinRequest vaadinRequest) {
-
-//        Navigator navigator = new Navigator(this,this);
-//
-//        navigator.addProvider(viewProvider);
-//        navigator.navigateTo("login");
+    protected void init(VaadinRequest request) {
 
         navigationEvent.fire(new NavigationEvent("login"));
-
     }
 
-//    @WebServlet(urlPatterns = "/*", name = "MyUIServlet", asyncSupported = true)
-//    @VaadinServletConfiguration(ui = MyUI.class, productionMode = false)
-//    public static class MyUIServlet extends VaadinServlet {
-//    }
 }

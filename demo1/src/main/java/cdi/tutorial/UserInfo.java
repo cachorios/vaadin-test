@@ -11,12 +11,12 @@ import java.util.List;
 @UIScoped
 public class UserInfo implements Serializable {
     private User user;
+
     private List<String> roles = new LinkedList<String>();
 
     public UserInfo() {
         this.user = null;
     }
-
 
     public User getUser() {
         return user;
@@ -29,6 +29,7 @@ public class UserInfo implements Serializable {
             return user.getName();
         }
     }
+
     public void setUser(User user) {
         this.user = user;
         roles.clear();
@@ -43,6 +44,4 @@ public class UserInfo implements Serializable {
     public List<String> getRoles() {
         return roles;
     }
-
-
 }
