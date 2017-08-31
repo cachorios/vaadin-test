@@ -8,6 +8,7 @@ import com.vaadin.cdi.CDIViewProvider;
 import com.vaadin.cdi.NormalUIScoped;
 import com.vaadin.navigator.Navigator;
 import com.vaadin.ui.UI;
+import org.rb.MyUI;
 
 @NormalUIScoped
 public class NavigationServiceImpl implements NavigationService {
@@ -18,11 +19,15 @@ public class NavigationServiceImpl implements NavigationService {
     @Inject
     private UI ui;
 
+    @Inject
+    private ErrorView errorView;
+
     @PostConstruct
     public void initialize() {
         if (ui.getNavigator() == null) {
-            Navigator navigator = new Navigator(ui, ui);
+            Navigator navigator = new Navigator(ui, ((MyUI)ui.getUI()).getContentLayout() );
             navigator.addProvider(viewProvider);
+            navigator.setErrorView(errorView);
         }
     }
 
