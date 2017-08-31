@@ -12,3 +12,4 @@ src/main/webapp/VAADIN/widgetsets
 .settings/
 .idea
 *.iml
+/demo1/target
