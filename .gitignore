@@ -5,6 +5,10 @@
 .classpath
 .project
 .settings/
+
+/*/.idea
 .idea
+/*/*.iml
 *.iml
 /demo1/target
+.idea
