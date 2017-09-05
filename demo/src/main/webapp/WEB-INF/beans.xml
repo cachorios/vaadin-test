@@ -1,0 +1,10 @@
+<beans>
+    <alternatives>
+        <class>com.rb.backend.service.UserSession</class>
+
+    </alternatives>
+    <decorators>
+
+    </decorators>
+
+</beans>

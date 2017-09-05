@@ -6,4 +6,5 @@
     <decorators>
         <class>cdi.tutorial.NavigationLogDecorator</class>
     </decorators>
+
 </beans>
