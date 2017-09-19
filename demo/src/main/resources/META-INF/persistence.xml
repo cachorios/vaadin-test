@@ -5,19 +5,26 @@
 
     <persistence-unit name="demoDb" transaction-type="JTA">
         <!--<provider>org.apache.openjpa.persistence.PersistenceProviderImpl</provider>-->
+        <jta-data-source>PostgreDS</jta-data-source>
+        <!--<class>com.rb.backend.User</class>-->
         <properties>
             <!--<property name="openjpa.ConnectionURL" value=""/>-->
             <!--<property name="openjpa.ConnectionDriverName" value=""/>-->
             <!--<property name="openjpa.ConnectionUserName" value=""/>-->
             <!--<property name="openjpa.ConnectionPassword" value=""/>-->
             <!--drop-and-create-->
+            <!--<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />-->
+            <!--<property name="javax.persistence.jdbc.url"    value="jdbc:postgresql://192.168.99.100:5433/demo" />-->
+            <!--<property name="javax.persistence.jdbc.user" value="postgres" />-->
+            <!--<property name="javax.persistence.jdbc.password" value="7219" />-->
+
             <property name="javax.persistence.schema-generation.database.action" value="create"/>
-            <property name="openjpa.jdbc.SynchronizeMappings" value="buildSchema(ForeignKeys=true)"/>
+            <!--<property name="openjpa.jdbc.SynchronizeMappings" value="buildSchema(ForeignKeys=true)"/>-->
             <property name="hibernate.show_sql" value="true"/>
             <property name="eclipselink.logging.level" value="FINE"/>
             <property name="openjpa.Log" value="DefaultLevel=WARN, Runtime=INFO, Tool=INFO, SQL=TRACE"/>
 
-
+            <property name="openjpa.jdbc.SynchronizeMappings" value="buildSchema"/>
             <!--<property name="openjpa.Log" value="DefaultLevel=TRACE, Tool=INFO"/>-->
 
         </properties>

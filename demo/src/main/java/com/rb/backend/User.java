@@ -8,7 +8,7 @@ import javax.validation.constraints.Pattern;
 
 
 @Entity
-//@Table(name="RB_USER")
+@Table(name="RB_USER")
 @NamedQueries({})
 public class User extends AbstractEntity {
 
@@ -45,7 +45,7 @@ public class User extends AbstractEntity {
 
     @Override
     public String toString() {
-        return email;
+        return  getId().toString().concat(email);
     }
 
 }

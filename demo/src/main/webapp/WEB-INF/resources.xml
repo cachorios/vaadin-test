@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomee>
+<Resource id="PostgreDS" type="DataSource">
+    #  PostgreSQL example
+    #
+    #  This connector will not work until you download the driver at:
+    #  http://jdbc.postgresql.org/download.html
+    JdbcDriver   org.postgresql.Driver
+    JdbcUrl  jdbc:postgresql://192.168.99.100:5433/demo
+    UserName     postgres
+    Password     7219
+</Resource>
+</tomee>
